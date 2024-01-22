@@ -1,0 +1,24 @@
+
+
+.trandCard {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--cardColor);
+    padding: 1rem;
+    padding-left: 2rem;
+    border-radius: 1rem;
+}
+
+.trandName {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.trandName>span:nth-of-type(1) {
+    font-weight: bold;
+}
+.trandName>span:nth-of-type(1) {
+    font-size: 13px;
+}
